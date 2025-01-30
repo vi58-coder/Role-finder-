@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolefinder</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+
+    <!-- nav section -->
+   <nav class="header-nav">
+    <div class="logo">
+        <a href="../index.html"><img src="/images/PagesAsset 3Collection 1.svg" alt="logo"></a>
+    </div>
+    <div class="right-nav">
+        <a class="nav-links seperate" href="../index.html">home</a>
+        <a class="nav-links" href="../about/about.html">about</a>
+        <a class="nav-links" href="../blog/blog.html">blog</a>
+        <a class="nav-links" href="../contact/contact.html">contact</a>
+        <button id="openModal" class="nav-links" type="button">Sign up</button>
+        <button id="openMode" class="log" type="button">Login</button>
+    </div>
+   </nav>
+   
+   <!-- contact section -->
+   <article class="contact-container">
+    <div class="contact-body">
+
+      <h1 class=" contact-header">Contact Us</h1>
+      <p class=" contact-paragraph">
+        We’re here to help! Whether you have questions, feedback, or need assistance, our team is ready to support you every step of the way. 
+      </p>
+      <p class="contact-paragraph"> Feel free to reach out to us using the form below.</p>
+
+      <form action="#" method="POST" class="contact-form">
+        <!-- First Name and Last Name -->
+        <div class="contact-fill">
+          <input type="text" placeholder="First Name" class="contact-names">
+          <input type="text" placeholder="Last Name" class="contact-names">
+        </div>
+        <!-- Email -->
+        <input type="email" placeholder="Email Address" class="contact-mail">
+        <!-- Message -->
+        <textarea placeholder="Your Message" rows="5" class="contact-mail"></textarea>
+        <!-- Submit Button -->
+        <div class="contact-submit">
+          <button type="submit" class="contact-button">
+            Send
+          </button>
+        </div>
+      </form>
+
+    </div>
+   </article>
+
+   <!-- footer section -->
+    <footer class="all-footer">
+        <div class="footer-wrapper">
+            <nav class=" footer-nav">
+                <a class="footer-link nav-links" href="../index.html">home</a>
+                <a class="footer-link nav-links" href="../about/about.html">about</a>
+                <a class="footer-link nav-links" href="../blog/blog.html">blog</a>
+                <a class="footer-link nav-links" href="../contact/contact.html">contact</a>
+            </nav>
+            <p class="footer-para">
+                Built for RoleFinder by <span class="">Merhi</span>
+              </p>
+        </div>
+    </footer>
+
+
+    <!-- Popup Modal (Hidden by default) -->
+ <div id="modal" class="hidden modal-container">
+    <div class="modal-body">
+        
+        <!-- Back Arrow -->
+        <button id="closeModal" class="arrow" type="button">
+            &#8592;
+        </button>
+  
+        <!-- Modal Content -->
+        <h2 class="modal-content modal-log">Create an account with:</h2>
+  
+        <!-- Google Login -->
+      <button class="logins modal-log" type="button">
+        <img src="../images/google.svg" alt="Google" class="w-5 h-5 mr-2">
+         Sign up with Google
+    </button>
+
+    <!-- Apple Login -->
+    <button class="logins modal-log" type="button">
+        <img src="../images/apple.svg" alt="Apple" class="w-5 h-5 mr-2">
+        Sign up with Apple
+    </button>
+
+    <!-- Email Login -->
+    <button class="logins modal-log" type="button">
+        <img src="../images/Mail.svg" alt="Email" class="w-5 h-5 mr-2">
+        Sign up with e-mail
+    </button>
+  
+        <!-- Sign Up Text -->
+        <p class="sign-up-text ">
+            Alredy have an account? <a href="#" class="text-blue-600">Login</a>
+        </p>
+    </div>
+  </div>
+
+   <!-- Popup login (Hidden by default) -->
+ <div id="modeContainer" class="hidden login-hide">
+        
+    <!-- login Box -->
+    <div id="mode" class="login-box modal-body">
+        
+        <!-- Back Arrow -->
+        <button id="closeMode" class="back-arrow">
+            &#8592;
+        </button>
+  
+        <!-- Modal Content -->
+        <h2 class="mail-log modal-log">E-mail Login</h2>
+  
+        <!-- Email Input -->
+        <input type="email" placeholder="e-mail" class="inputes">
+  
+        <!-- Password Input -->
+        <input type="password" placeholder="password" class="inputes">
+  
+        <!-- Login Button -->
+        <button class="button-log">Login</button>
+  
+        <!-- Sign Up Text -->
+        <p class=".log-text">
+            Don't have an account? <a href="#" class="text-blue-600">Sign up</a>
+        </p>
+    </div>
+  </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

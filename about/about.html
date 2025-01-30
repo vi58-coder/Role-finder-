@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolefinder</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+
+    <!-- nav section -->
+   <nav class="header-nav">
+    <div class="logo">
+        <a href="../index.html"><img src="/images/PagesAsset 3Collection 1.svg" alt="logo"></a>
+    </div>
+    <div class="right-nav">
+        <a class="nav-links seperate" href="../index.html">home</a>
+        <a class="nav-links" href="../about/about.html">about</a>
+        <a class="nav-links" href="../blog/blog.html">blog</a>
+        <a class="nav-links" href="../contact/contact.html">contact</a>
+        <button id="openModal" class="nav-links" type="button">Sign up</button>
+        <button id="openMode" class="log" type="button">Login</button>
+    </div>
+   </nav>
+
+   <div class="about-section blog-section">
+    <div class="about-container blog-container">
+        <h1 class="blog-header">about</h1>
+
+        <div class="about-image-section">
+            <img src="../images/jobapp.svg" alt="about image" class="blog-image">
+        </div>
+
+        <div class="about-body">
+            <!-- Main Text -->
+            <p class="about-text">
+              Welcome to RoleFinder, your go-to platform for discovering companies actively hiring across various industries and roles. Whether you're looking for your next career move or seeking the perfect opportunity to showcase your talents, we curate verified company listings to help you find the role that matches your passion and skills.
+            </p>
+            <p class="about-text">
+              Our goal is simple: provide job seekers with the most authentic information about companies hiring for their dream roles. We understand that finding the right job can be overwhelming, which is why we’ve made it our goal to simplify the search process. By compiling and organizing company listings, carefully curated and verified, we take the hassle out of job hunting, allowing you to focus on what matters most – landing the perfect role.
+            </p>
+            <p class="about-text">
+              At RoleFinder, we don’t just provide a list of openings; we offer a tailored experience designed to meet your unique career aspirations.
+            </p>
+        
+            <!-- Highlighted Quote -->
+            <div class="highlited-body">
+              <p class="highlited-text">
+                "we don’t just provide a list of openings; <br>
+                we offer a tailored experience designed to meet your unique career aspirations."
+              </p>
+            </div>
+        
+            <!-- Features List -->
+            <p class="feature-text">With our platform, you can:</p>
+            <ul class="feature-list">
+              <li>Explore a wide variety of roles across industries like tech, healthcare, finance, marketing, etc.</li>
+              <li>Filter job searches based on your location, expertise, or desired job type.</li>
+              <li>Stay informed on the latest trends in the job market through our blog and newsletter.</li>
+              <li>Access company profiles, so you can learn about potential employers before applying.</li>
+            </ul>
+          </div>
+
+
+          <div class="uploading-body">
+            <!-- Icon and Text Section -->
+            <div class="uploading-flex">
+              <!-- Icon -->
+              <div class=" icon-left">
+                <img src="../images/icon.svg" alt="icon-image">
+              </div>
+              <!-- Text Content -->
+              <div class="content-left">
+                <p class=" icon-right one">
+                  We are constantly updating our listings to ensure you have access 
+                  to the most current and relevant opportunities out there.
+                </p>
+                <p class="icon-right">
+                  Our team works hard to build relationships with companies 
+                  that value innovation, diversity, and growth so that every
+                   entry featured on our list aligns with your career goals.
+                </p>
+              </div>
+            </div>
+        
+            <!-- Illustration -->
+            <!-- <div>
+              <img src="../images/lady.svg" alt="Illustration" class="work-search">
+            </div> -->
+          </div>
+          <div>
+            <img src="../images/lady.svg" alt="Illustration" class="work-search">
+          </div>
+
+    </div>
+   </div>
+
+   
+<div class="blog-section">
+    <div class="blog-container">
+  
+      <div class="join-section blog-paragraph">
+          <p class="join-paragraph blog-text">
+              Join us today and let us help you take the next step in your profesional <br  />
+              journey
+          </p>
+          <a href="" class="sine-up nav-links">Sign up</a>
+      </div>
+  
+      <div class="message-section">
+          <div class="div-one">
+           <div class="left-section">
+              <img src="../images/message-icon.svg" alt="icon">
+              <p class="reach">Feel free to reach out to us if you have any questions, suggestions or 
+                  feedback
+              </p>
+           </div>
+  
+           <div class="right-section">
+              <a href="../contact/contact.html" class="contact-btn nav-links">Contact us</a>
+           </div>
+  
+          </div>
+      </div>
+  
+        <div class="newsletter blog-paragraph">
+           <div class=" news-section">
+                <div class="news-left">
+                   <p class="reach">
+                     Sign up for our newsletter to get updates on new listings, information about the job market, and other helpful tips to help make your job search easier.
+                   </p>
+               </div>
+                <div class=" news-search">
+                    <input type="text" placeholder="Your Email" class="news-mail">
+                    <a href="" class="sine-up blog-sineup">Sign up</a>
+                 </div>
+           </div>
+       </div>
+   </div>
+  </div>
+
+
+  
+<!-- footer section -->
+<footer class="all-footer">
+    <div class="footer-wrapper">
+        <nav class=" footer-nav">
+            <a class="footer-link nav-links" href="../index.html">home</a>
+            <a class="footer-link nav-links" href="../about/about.html">about</a>
+            <a class="footer-link nav-links" href="../blog/blog.html">blog</a>
+            <a class="footer-link nav-links" href="../contact/contact.html">contact</a>
+        </nav>
+        <p class="footer-para">
+            Built for RoleFinder by <span class="">Merhi</span>
+          </p>
+    </div>
+</footer>
+
+<!-- Popup Modal (Hidden by default) -->
+<div id="modal" class="hidden modal-container">
+    <div class="modal-body">
+        
+        <!-- Back Arrow -->
+        <button id="closeModal" class="arrow" type="button">
+            &#8592;
+        </button>
+  
+        <!-- Modal Content -->
+        <h2 class="modal-content modal-log">Create an account with:</h2>
+  
+        <!-- Google Login -->
+      <button class="logins modal-log" type="button">
+        <img src="../images/google.svg" alt="Google" class="w-5 h-5 mr-2">
+         Sign up with Google
+    </button>
+
+    <!-- Apple Login -->
+    <button class="logins modal-log" type="button">
+        <img src="../images/apple.svg" alt="Apple" class="w-5 h-5 mr-2">
+        Sign up with Apple
+    </button>
+
+    <!-- Email Login -->
+    <button class="logins modal-log" type="button">
+        <img src="../images/Mail.svg" alt="Email" class="w-5 h-5 mr-2">
+        Sign up with e-mail
+    </button>
+  
+        <!-- Sign Up Text -->
+        <p class="sign-up-text ">
+            Alredy have an account? <a href="#" class="text-blue-600">Login</a>
+        </p>
+    </div>
+  </div>
+
+   <!-- Popup login (Hidden by default) -->
+ <div id="modeContainer" class="hidden login-hide">
+        
+    <!-- login Box -->
+    <div id="mode" class="login-box modal-body">
+        
+        <!-- Back Arrow -->
+        <button id="closeMode" class="back-arrow">
+            &#8592;
+        </button>
+  
+        <!-- Modal Content -->
+        <h2 class="mail-log modal-log">E-mail Login</h2>
+  
+        <!-- Email Input -->
+        <input type="email" placeholder="e-mail" class="inputes">
+  
+        <!-- Password Input -->
+        <input type="password" placeholder="password" class="inputes">
+  
+        <!-- Login Button -->
+        <button class="button-log">Login</button>
+  
+        <!-- Sign Up Text -->
+        <p class=".log-text">
+            Don't have an account? <a href="#" class="text-blue-600">Sign up</a>
+        </p>
+    </div>
+  </div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>   

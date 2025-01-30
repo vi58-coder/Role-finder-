@@ -1,0 +1,93 @@
+body{
+  @apply font-sans;
+}
+
+.header-nav{
+    @apply flex justify-between px-[10rem] py-6;
+}
+
+.right-nav{
+  @apply border-2 rounded-3xl border-[#F15B3E] flex h-[100%] justify-center items-center; 
+}
+
+.nav-links{
+    @apply mr-16 capitalize text-lg font-normal hover:text-[#F15B3E];
+}
+
+.seperate{
+    @apply ml-10;
+}
+
+.log{
+    @apply bg-[#2C2D2D] text-lg text-white px-9 my-2 mr-10 rounded-md hover:bg-[#F15B3E] hover:text-white ease-out duration-300 hover:font-normal;
+}
+
+.bottom-nav{
+    @apply pt-10
+}
+
+.bottom-list{
+    @apply border rounded-t;
+}
+
+/* sign up pop-up */
+
+.modal-container{
+    @apply fixed inset-0 backdrop-blur-[1px] transition duration-300;
+}
+
+.modal-body{
+    @apply bg-white p-2 rounded-lg border border-[#F15B3E] w-[19rem] shadow-lg absolute top-20 right-40;
+}
+
+.arrow{
+    @apply absolute top-2 left-8 text-gray-600 text-lg;
+}
+
+.modal-content{
+    @apply text-lg font-semibold mb-4 ;
+}
+
+.modal-log{
+    @apply m-auto max-w-[70%]
+}
+
+.logins{
+    @apply flex items-center border border-gray-300 rounded-lg p-2 w-full mb-2 ;
+}
+
+.sign-up-text{
+    @apply text-start text-gray-500 text-sm;
+}
+
+
+/* login pop up */
+
+.login-hide{
+    @apply fixed inset-0 bg-gray-900 bg-opacity-50 backdrop-blur-[1px] flex items-start justify-end p-4;
+}
+
+/* .login-box{
+    @apply bg-white p-4 rounded-lg border border-red-300 w-[24rem]  shadow-lg absolute top-4 right-4;
+} */
+
+
+.back-arrow{
+    @apply absolute top-2 left-4 text-gray-600 text-xl;
+}
+
+.mail-log{
+ @apply text-lg font-semibold mb-4;   
+}
+
+.inputes{
+ @apply w-full p-2 border rounded-md mb-2 focus:outline-none focus:ring focus:ring-gray-100;
+}
+
+.button-log{
+   @apply bg-black text-white w-full py-2 rounded-md; 
+}
+
+.log-text{
+    @apply text-center text-gray-500 text-sm mt-2;
+}

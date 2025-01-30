@@ -1,0 +1,59 @@
+.contact-cntainer{
+    @apply bg-gray-100 flex items-center justify-center min-h-screen;
+}
+
+.contact-body{
+    @apply w-full max-w-lg mx-auto bg-white ;
+}
+
+.contact-header{
+    @apply text-4xl font-semibold tracking-wide text-center mb-4 border-b-2 pb-2;
+}
+
+.contact-paragraph{
+    @apply text-start text-gray-600 text-lg mb-3;
+}
+
+.contact-form{
+    @apply space-y-4 border p-4 rounded-2xl;
+}
+
+.contact-fill{
+    @apply flex space-x-4; 
+}
+
+.contact-names{
+    @apply w-1/2 p-3 border border-red-500 rounded focus:outline-none focus:ring-2 focus:ring-red-500;
+}
+
+.contact-mail{
+    @apply w-full p-3 border border-red-500 rounded focus:outline-none focus:ring-2 focus:ring-red-500;
+}
+
+.contact-submit{
+    @apply text-center;
+}
+
+.contact-button{
+    @apply bg-black text-white py-1 px-14 rounded hover:bg-[#F15B3E] ease-out duration-300;
+}
+
+.all-footer{
+    @apply bg-[#2C2D2D] p-8 mx-[7rem] mt-16 mb-8 rounded-[70px];
+}
+
+.footer-wrapper{
+    @apply text-white text-center;
+}
+
+.footer-nav{
+    @apply bg-white py-3 m-auto max-w-[50%] rounded-full border border-[#F15B3E];
+}
+
+.footer-link{
+    @apply text-black;
+}
+
+.footer-para{
+    @apply mt-2;
+}

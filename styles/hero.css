@@ -1,0 +1,55 @@
+.hero{
+    @apply flex flex-col justify-center items-center text-center pt-[4rem]; 
+}
+
+.heading{
+    @apply text-7xl font-semibold text-gray-900 capitalize;
+}
+
+.paragraph{
+    @apply text-xl;
+}
+
+.search-component{
+    @apply my-12 bg-white border-2 border-gray-200 rounded-3xl p-14 w-full max-w-4xl;
+}
+
+.search-flex{
+    @apply flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4;
+}
+
+.first-drop{
+    @apply flex items-center bg-[#D9D9D9] border-2 border-[#F15B3E] rounded-lg px-4 py-2 w-full sm:w-auto;
+}
+
+.first-select{
+    @apply w-full focus:outline-none bg-transparent text-gray-700;
+}
+
+.local-drop{
+  @apply border-2 bg-[#D9D9D9] border-[#F15B3E] rounded-lg px-8 py-2 w-full sm:w-auto;
+}
+
+.first-button{
+    @apply bg-[#F15B3E] text-white px-14 py-2 rounded-lg hover:bg-orange-500 transition;
+}
+
+.drop-paragraph{
+    @apply text-center text-gray-500 mt-4;
+}
+
+.hero-end{
+    @apply text-lg font-medium w-[40%] m-auto;
+}
+
+.hero-span{
+    @apply  text-[#F15B3E];
+}
+
+.home-footer{
+    @apply pt-8 -ml-2 -mb-2;
+}
+
+.home-footer-wrap{
+    @apply border-r-2 border-t-2 max-w-[25%]  pt-2 pl-4 pb-4 rounded-2xl;
+}

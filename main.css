@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "/styles/nav.css"; 
+@import "/styles/hero.css";
+@import "/styles/contact.css";
+@import "/styles/blog.css";
+@import "/styles/read.css";
+@import "/styles/about.css";
+@import "tailwindcss/utilities";

@@ -1,0 +1,103 @@
+
+
+.blog-header{
+    @apply text-center capitalize text-4xl font-semibold pt-2 pb-4;
+}
+
+
+.blog-image{
+    @apply m-auto border-t-2 pt-4;
+}
+
+.blog-paragraph{
+    @apply m-auto max-w-[76%] bg-[#F3FDFF] mt-6 border border-[#3ED3F1] rounded-2xl;
+}
+
+.blog-text{
+    @apply p-8 text-lg;
+}
+
+.blog-flex-container{
+    @apply flex flex-col items-center justify-center pt-10 pb-10 m-auto max-w-[76%] border
+    rounded-2xl my-6 px-4;
+}
+
+.blog-flex-item{
+    @apply grid grid-cols-3 gap-6; 
+}
+
+.flex-content{
+    @apply flex flex-col gap-2 bg-[#FFF7F1] px-8 py-4 border border-[#F15B3E] rounded-2xl;
+}
+
+.blog-image-second{
+    @apply rounded-xl;
+}
+
+.design-header{
+    @apply text-lg font-medium;
+}
+
+.blog-button{
+    @apply bg-[#F15B3E] text-white rounded-lg px-4 py-1 hover:text-white hover:bg-orange-400 transition duration-300
+    self-end mr-0;
+}
+
+.join-section{
+    @apply flex  justify-between items-center mb-10;
+}
+
+.join-paragraph{
+    @apply text-lg font-medium; 
+}
+
+.sine-up{
+    @apply  py-1 px-14 border border-[#3ED3F1] rounded-md text-[#3ED3F1] hover:text-white hover:bg-[#3ED3F1]
+    transition duration-300;
+}
+
+.message-section{
+ @apply m-auto max-w-[76%] bg-[#FFF7F1] mb-10  border border-[#F15B3E] rounded-2xl;   
+}
+
+.reach{
+    @apply text-lg font-medium py-3;
+}
+
+.div-one{
+    @apply flex justify-between items-center py-4 pl-6;
+}
+
+.right-section{
+    @apply self-end pb-4 ;
+}
+
+.contact-btn{
+   @apply py-1 px-12 border border-[#F15B3E] rounded-md text-[#F15B3E]
+   hover:text-white hover:bg-[#F15B3E] transition duration-300;
+}
+
+
+.news-section{
+    @apply flex justify-between w-[100%] p-6;
+}
+
+.newsletter{
+ @apply mb-6;
+}
+
+.news-search{
+    @apply flex items-center gap-2 mt-4 md:mt-0 pr-10;
+}
+
+.news-left{
+    @apply w-[50%];
+}
+
+.blog-sineup{
+    @apply mr-0;
+}
+
+.news-mail{
+    @apply border border-blue-300 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400;
+}

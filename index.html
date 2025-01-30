@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolefinder</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <!-- nav section -->
+   <nav class="header-nav">
+    <div class="logo">
+        <a href="#"><img src="/images/PagesAsset 3Collection 1.svg" alt="logo"></a>
+    </div>
+        <div class="right-nav">
+            <a class="nav-links seperate" href="#">home</a>
+            <a class="nav-links" href="../about/about.html">about</a>
+            <a class="nav-links" href="../blog/blog.html">blog</a>
+            <a class="nav-links" href="../contact/contact.html">contact</a>
+            <button id="openModal" class="nav-links" type="button">Sign up</button>
+            <button id="openMode" class="log" type="button">Login</button>
+        </div>
+   </nav>
+
+  <!-- hero section -->
+
+  <div class="hero">
+    <div class="hero-container">
+        <h1 class="heading">Search smarter.</h1>
+        <p class="paragraph">Find the Perfect role, right where you are. </p>
+    </div>
+
+
+    <!-- Search Component -->
+  <div class="search-component">
+    <div class="search-flex">
+      <!-- Country Dropdown -->
+      <div class="first-drop">
+        <select name="Country" id="country" class="first-select" title="select your country">
+            <option value="" disabled selected>Country</option>
+            <option value="canada">Canada</option>
+            <option value="united states">United States</option>
+            <option value="united kingdom">United Kingdom</option>
+        </select>
+
+      </div>
+
+      <!-- Location Dropdown -->
+      <div class="local-drop">
+        <select name="Location" id="location" class="first-select" title="Select your location">
+          <option value="" disabled selected>Location</option>
+          <option>London, ON</option>
+          <option>Toronto, ON</option>
+          <option>Vancouver, BC</option>
+        </select>
+      </div>
+
+      <!-- Industry Dropdown -->
+      <div class="local-drop">
+        <select name="industry" id="industry" class="first-select" title="select industry">
+          <option value="" disabled selected>Industry</option>
+          <option>Technology</option>
+          <option>Healthcare</option>
+          <option>Finance</option>
+        </select>
+      </div>
+
+      <!-- Search Button -->
+      <button class="first-button">
+        Search
+      </button>
+    </div>
+
+    <!-- Subtitle -->
+    <p class="drop-paragraph">
+      From local opportunities to global positions, we help you find the ideal role.
+    </p>
+  </div>
+
+  <h1 class="hero-end">With over <span class="hero-span">10,000</span> Company listings, updated real-time with new cities and countries added everyday.</h1>
+  </div>
+
+ <div class="home-footer">
+  <div class="home-footer-wrap">
+    <a class="nav-links" href="#" class="hover:underline">Privacy</a>
+    <a class="nav-links" href="#" class="hover:underline">Policy</a>
+    <a class="nav-links" href="#" class="hover:underline">Terms</a>
+  </div>
+ </div>
+
+ <!-- Popup Modal (Hidden by default) -->
+ <div id="modal" class="hidden modal-container">
+  <div class="modal-body">
+      
+      <!-- Back Arrow -->
+      <button id="closeModal" class="arrow" type="button">
+          &#8592;
+      </button>
+
+      <!-- Modal Content -->
+      <h2 class="modal-content modal-log">Create an account with:</h2>
+
+      <!-- Google Login -->
+      <button class="logins modal-log" type="button">
+          <img src="../images/google.svg" alt="Google" class="w-5 h-5 mr-2">
+           Sign up with Google
+      </button>
+
+      <!-- Apple Login -->
+      <button class="logins modal-log" type="button">
+          <img src="../images/apple.svg" alt="Apple" class="w-5 h-5 mr-2">
+          Sign up with Apple
+      </button>
+
+      <!-- Email Login -->
+      <button class="logins modal-log" type="button">
+          <img src="../images/Mail.svg" alt="Email" class="w-5 h-5 mr-2">
+          Sign up with e-mail
+      </button>
+
+      <!-- Sign Up Text -->
+      <p class="sign-up-text modal-log">
+          Alredy have an account? <a href="#" class="text-blue-600">Login</a>
+      </p>
+  </div>
+</div>
+
+ <!-- Popup login (Hidden by default) -->
+ <div id="modeContainer" class="hidden login-hide">
+        
+  <!-- login Box -->
+  <div id="mode" class="login-box modal-body">
+      
+      <!-- Back Arrow -->
+      <button id="closeMode" class="back-arrow">
+          &#8592;
+      </button>
+
+      <!-- Modal Content -->
+      <h2 class="mail-log modal-log">E-mail Login</h2>
+
+      <!-- Email Input -->
+      <input type="email" placeholder="e-mail" class="inputes">
+
+      <!-- Password Input -->
+      <input type="password" placeholder="password" class="inputes">
+
+      <!-- Login Button -->
+      <button class="button-log">Login</button>
+
+      <!-- Sign Up Text -->
+      <p class=".log-text">
+          Don't have an account? <a href="#" class="text-blue-600">Sign up</a>
+      </p>
+  </div>
+</div>
+
+ <script src="../js/script.js"></script>
+</body>
+</html>
